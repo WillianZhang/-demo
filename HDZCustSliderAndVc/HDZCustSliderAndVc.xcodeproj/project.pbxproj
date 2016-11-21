@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8421754F1DE2923A00A92DB0 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8421754E1DE2923A00A92DB0 /* RootViewController.m */; };
+		842175521DE2961D00A92DB0 /* MyUIClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 842175511DE2961D00A92DB0 /* MyUIClass.m */; };
 		D5F8EE5E1DD5C1D400CD49D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F8EE5D1DD5C1D400CD49D2 /* main.m */; };
 		D5F8EE611DD5C1D400CD49D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F8EE601DD5C1D400CD49D2 /* AppDelegate.m */; };
 		D5F8EE641DD5C1D400CD49D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F8EE631DD5C1D400CD49D2 /* ViewController.m */; };
@@ -38,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8421754D1DE2923A00A92DB0 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		8421754E1DE2923A00A92DB0 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		842175501DE2961D00A92DB0 /* MyUIClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUIClass.h; sourceTree = "<group>"; };
+		842175511DE2961D00A92DB0 /* MyUIClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUIClass.m; sourceTree = "<group>"; };
 		D5F8EE591DD5C1D400CD49D2 /* HDZCustSliderAndVc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDZCustSliderAndVc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5F8EE5D1DD5C1D400CD49D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D5F8EE5F1DD5C1D400CD49D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -114,8 +120,12 @@
 				D5F8EE9E1DD5C39100CD49D2 /* HDZLib */,
 				D5F8EE5F1DD5C1D400CD49D2 /* AppDelegate.h */,
 				D5F8EE601DD5C1D400CD49D2 /* AppDelegate.m */,
+				8421754D1DE2923A00A92DB0 /* RootViewController.h */,
+				8421754E1DE2923A00A92DB0 /* RootViewController.m */,
 				D5F8EE621DD5C1D400CD49D2 /* ViewController.h */,
 				D5F8EE631DD5C1D400CD49D2 /* ViewController.m */,
+				842175501DE2961D00A92DB0 /* MyUIClass.h */,
+				842175511DE2961D00A92DB0 /* MyUIClass.m */,
 				D5F8EE651DD5C1D400CD49D2 /* Main.storyboard */,
 				D5F8EE681DD5C1D400CD49D2 /* Assets.xcassets */,
 				D5F8EE6A1DD5C1D400CD49D2 /* LaunchScreen.storyboard */,
@@ -300,7 +310,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842175521DE2961D00A92DB0 /* MyUIClass.m in Sources */,
 				D5F8EE641DD5C1D400CD49D2 /* ViewController.m in Sources */,
+				8421754F1DE2923A00A92DB0 /* RootViewController.m in Sources */,
 				D5F8EEA71DD5C39100CD49D2 /* HDZCustomMenusScroll.m in Sources */,
 				D5F8EEA61DD5C39100CD49D2 /* BaseViewController.m in Sources */,
 				D5F8EE611DD5C1D400CD49D2 /* AppDelegate.m in Sources */,

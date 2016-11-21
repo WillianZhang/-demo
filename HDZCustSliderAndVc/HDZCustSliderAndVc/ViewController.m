@@ -30,7 +30,7 @@
  
     
     
-    HDZCustomMenusScroll *menu = [[HDZCustomMenusScroll alloc] initWithFrame:CGRectMake(0, 64, Kwidth, 40)];
+    HDZCustomMenusScroll *menu = [[HDZCustomMenusScroll alloc] initWithFrame:CGRectMake(0, 0, Kwidth, 40)];
     [menu setUpTitleArrays:self.titleArray];
     [self.view addSubview:menu];
     self.menu = menu;
