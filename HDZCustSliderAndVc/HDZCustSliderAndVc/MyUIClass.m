@@ -80,6 +80,10 @@
 //    [alert show];
 //    return alert;
 //}
++(UIAlertController *)makeUIAlertControllerWithTitle:(NSString *)title andMessage:(NSString *)message andPreferredStyle:(UIAlertControllerStyle)preferredStyle{
+    UIAlertController *alert  = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:preferredStyle];
+    return alert;
+}
 
 @end
 

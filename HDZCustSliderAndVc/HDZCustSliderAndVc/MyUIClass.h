@@ -29,6 +29,10 @@
 ////UIAlertView
 //+(UIAlertView*)makeUIAlertView:(NSString *)messsage andTarget:(id)target;
 
+//UIAlertController封装
++(UIAlertController *)makeUIAlertControllerWithTitle:(NSString *)title andMessage:(NSString *)message andPreferredStyle:(UIAlertControllerStyle)preferredStyle;
+
+
 @end
 
 

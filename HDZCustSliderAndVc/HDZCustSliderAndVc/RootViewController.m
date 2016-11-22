@@ -42,8 +42,13 @@
     [imagev setImage:[UIImage imageNamed:@"resizeApi"]];
     [leftView addSubview:imagev];
    
-    
     [self.view addSubview:field];
+    
+    
+       
+    
+
+    
     
     
 }
@@ -55,6 +60,17 @@
 
 -(void)pushTOOO{
     NSLog(@"输出这样的一段话");
+    UIAlertController *alert  = [MyUIClass makeUIAlertControllerWithTitle:@"测试" andMessage:@"这是一个封装测试" andPreferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction *action = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+        NSLog(@"提示栏我点的是 取消");
+    }];
+    
+    [alert addAction:action];
+    
+    [self presentViewController:alert animated:YES completion:nil];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
