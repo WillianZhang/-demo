@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor cyanColor];
+    
+    
+    NSLog(@"第一次添加语句测试");
 }
 
 - (void)didReceiveMemoryWarning {
