@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6104EC6721AAC4C600AADC23 /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6104EC6621AAC4C600AADC23 /* testViewController.m */; };
 		8421754F1DE2923A00A92DB0 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8421754E1DE2923A00A92DB0 /* RootViewController.m */; };
 		842175521DE2961D00A92DB0 /* MyUIClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 842175511DE2961D00A92DB0 /* MyUIClass.m */; };
 		D5F8EE5E1DD5C1D400CD49D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F8EE5D1DD5C1D400CD49D2 /* main.m */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6104EC6521AAC4C600AADC23 /* testViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
+		6104EC6621AAC4C600AADC23 /* testViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
 		8421754D1DE2923A00A92DB0 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		8421754E1DE2923A00A92DB0 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		842175501DE2961D00A92DB0 /* MyUIClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUIClass.h; sourceTree = "<group>"; };
@@ -120,6 +123,8 @@
 				D5F8EE9E1DD5C39100CD49D2 /* HDZLib */,
 				D5F8EE5F1DD5C1D400CD49D2 /* AppDelegate.h */,
 				D5F8EE601DD5C1D400CD49D2 /* AppDelegate.m */,
+				6104EC6521AAC4C600AADC23 /* testViewController.h */,
+				6104EC6621AAC4C600AADC23 /* testViewController.m */,
 				8421754D1DE2923A00A92DB0 /* RootViewController.h */,
 				8421754E1DE2923A00A92DB0 /* RootViewController.m */,
 				D5F8EE621DD5C1D400CD49D2 /* ViewController.h */,
@@ -316,6 +321,7 @@
 				D5F8EEA71DD5C39100CD49D2 /* HDZCustomMenusScroll.m in Sources */,
 				D5F8EEA61DD5C39100CD49D2 /* BaseViewController.m in Sources */,
 				D5F8EE611DD5C1D400CD49D2 /* AppDelegate.m in Sources */,
+				6104EC6721AAC4C600AADC23 /* testViewController.m in Sources */,
 				D5F8EE5E1DD5C1D400CD49D2 /* main.m in Sources */,
 				D5F8EEA81DD5C39100CD49D2 /* HDZCustomSliderVC.m in Sources */,
 			);
