@@ -8,7 +8,6 @@
 
 #import "RootViewController.h"
 #import "ViewController.h"
-#import "MyUIClass.h"
 
 @interface RootViewController ()
 
@@ -27,22 +26,20 @@
     [button addTarget:self action:@selector(pushTo) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
     
-    UIButton *btn = [MyUIClass makeUIButtonWithFrame:CGRectMake(200, 300, 100, 100) andType:1 andBackGroundClor:[UIColor lightGrayColor] andTitle:@"点击我" andTitleColor:[UIColor redColor] andImageName:nil andTarget:self andSelector:@selector(pushTOOO) andEvent:UIControlEventTouchUpInside andState:UIControlStateNormal];
-    
-    [self.view addSubview:btn];
+ 
     
     
     UIView *leftView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 50, 50)];
     
     
-    UITextField *field = [MyUIClass makeUITextFieldWithFrame:CGRectMake(50, 450, 300, 50) andDelegate:self andBorderStyle:UITextBorderStyleLine andPlaceHolder:@"请输入文字" andSecu:NO andLeftView:leftView andLeftViewMode:UITextFieldViewModeAlways andRightView:nil andRightViewMode:UITextFieldViewModeAlways andClearBtnMode:UITextFieldViewModeAlways andAutoCorrect:UITextAutocorrectionTypeDefault andAutoCapital:UITextAutocapitalizationTypeNone andKeyboardType:UIKeyboardTypeDefault andReturnType:UIReturnKeyJoin andInputView:nil];
+    
     
     
     UIImageView *imagev = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 50, 50)];
     [imagev setImage:[UIImage imageNamed:@"resizeApi"]];
     [leftView addSubview:imagev];
    
-    [self.view addSubview:field];
+    
     
     
        
@@ -60,15 +57,7 @@
 
 -(void)pushTOOO{
     NSLog(@"输出这样的一段话");
-    UIAlertController *alert  = [MyUIClass makeUIAlertControllerWithTitle:@"测试" andMessage:@"这是一个封装测试" andPreferredStyle:UIAlertControllerStyleAlert];
-    
-    UIAlertAction *action = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
-        NSLog(@"提示栏我点的是 取消");
-    }];
-    
-    [alert addAction:action];
-    
-    [self presentViewController:alert animated:YES completion:nil];
+   
     
     
 }
